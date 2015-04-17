@@ -1,0 +1,70 @@
+lnpy.transform package
+======================
+
+Submodules
+----------
+
+lnpy.transform.base module
+--------------------------
+
+.. automodule:: lnpy.transform.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.gabor module
+---------------------------
+
+.. automodule:: lnpy.transform.gabor
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.gammatone module
+-------------------------------
+
+.. automodule:: lnpy.transform.gammatone
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.modspec module
+-----------------------------
+
+.. automodule:: lnpy.transform.modspec
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.setup module
+---------------------------
+
+.. automodule:: lnpy.transform.setup
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.spectrogram module
+---------------------------------
+
+.. automodule:: lnpy.transform.spectrogram
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.transform.wrap_gtfb module
+-------------------------------
+
+.. automodule:: lnpy.transform.wrap_gtfb
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: lnpy.transform
+    :members:
+    :undoc-members:
+    :show-inheritance:

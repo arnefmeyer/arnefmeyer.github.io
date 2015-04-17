@@ -1,0 +1,70 @@
+lnpy.learn package
+==================
+
+Submodules
+----------
+
+lnpy.learn.base module
+----------------------
+
+.. automodule:: lnpy.learn.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.glm module
+---------------------
+
+.. automodule:: lnpy.learn.glm
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.grid_search module
+-----------------------------
+
+.. automodule:: lnpy.learn.grid_search
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.pyhelper module
+--------------------------
+
+.. automodule:: lnpy.learn.pyhelper
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.setup module
+-----------------------
+
+.. automodule:: lnpy.learn.setup
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.sgd module
+---------------------
+
+.. automodule:: lnpy.learn.sgd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+lnpy.learn.svm module
+---------------------
+
+.. automodule:: lnpy.learn.svm
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: lnpy.learn
+    :members:
+    :undoc-members:
+    :show-inheritance:

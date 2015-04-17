@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>lnpy.transform package &mdash; lnpy 0.1 alpha documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1 alpha',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="lnpy 0.1 alpha documentation" href="index.html" />
+    <link rel="up" title="lnpy package" href="lnpy.html" />
+    <link rel="next" title="setup module" href="setup.html" />
+    <link rel="prev" title="lnpy.lnp package" href="lnpy.lnp.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="setup.html" title="setup module"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="lnpy.lnp.html" title="lnpy.lnp package"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">lnpy 0.1 alpha documentation</a> &raquo;</li>
+          <li><a href="lnpy.html" accesskey="U">lnpy package</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="lnpy-transform-package">
+<h1>lnpy.transform package<a class="headerlink" href="#lnpy-transform-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-lnpy.transform.base">
+<span id="lnpy-transform-base-module"></span><h2>lnpy.transform.base module<a class="headerlink" href="#module-lnpy.transform.base" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="lnpy.transform.base.BaseTransform">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.base.</tt><tt class="descname">BaseTransform</tt><a class="headerlink" href="#lnpy.transform.base.BaseTransform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>Base class for all (time-frequency) transformation classes</p>
+<dl class="method">
+<dt id="lnpy.transform.base.BaseTransform.get_center_frequencies">
+<tt class="descname">get_center_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.base.BaseTransform.get_center_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.base.BaseTransform.get_name">
+<tt class="descname">get_name</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.base.BaseTransform.get_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.base.BaseTransform.get_samplerate">
+<tt class="descname">get_samplerate</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.base.BaseTransform.get_samplerate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.base.BaseTransform.process">
+<tt class="descname">process</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.base.BaseTransform.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.base.BaseTransform.to_string">
+<tt class="descname">to_string</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.base.BaseTransform.to_string" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform.gabor">
+<span id="lnpy-transform-gabor-module"></span><h2>lnpy.transform.gabor module<a class="headerlink" href="#module-lnpy.transform.gabor" title="Permalink to this headline">¶</a></h2>
+<p>Python implementation of the gabor filterbank from</p>
+<p>[1] M.R. Schädler, B.T. Meyer, B. Kollmeier
+&#8220;Spectro-temporal modulation subspace-spanning filter bank features
+for robust automatic speech recognition &#8221;, J. Acoust. Soc. Am. Volume 131,
+Issue 5, pp. 4134-4151 (2012)</p>
+<dl class="class">
+<dt id="lnpy.transform.gabor.GaborFilter">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.gabor.</tt><tt class="descname">GaborFilter</tt><big>(</big><em>size_n</em>, <em>size_k</em>, <em>omega_n=0.7853981633974483</em>, <em>omega_k=0.7853981633974483</em>, <em>nu_n=3.5</em>, <em>nu_k=3.5</em>, <em>index=None</em><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>Gabor filter class</p>
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilter.get_coef">
+<tt class="descname">get_coef</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilter.get_coef" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilter.get_omega">
+<tt class="descname">get_omega</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilter.get_omega" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilter.get_size">
+<tt class="descname">get_size</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilter.get_size" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilter.process">
+<tt class="descname">process</tt><big>(</big><em>X</em>, <em>output_type='real'</em>, <em>mode='same'</em>, <em>boundary='fill'</em>, <em>fillvalue=0</em><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilter.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="lnpy.transform.gabor.GaborFilterbank">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.gabor.</tt><tt class="descname">GaborFilterbank</tt><big>(</big><em>samplerate=400.0</em>, <em>t_maxlen=0.04</em>, <em>f_maxlen=22</em>, <em>design='ASR'</em><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilterbank" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#lnpy.transform.base.BaseTransform" title="lnpy.transform.base.BaseTransform"><tt class="xref py py-class docutils literal"><span class="pre">lnpy.transform.base.BaseTransform</span></tt></a></p>
+<p>Gabor filterbank</p>
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilterbank.get_filters">
+<tt class="descname">get_filters</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilterbank.get_filters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilterbank.plot_filters">
+<tt class="descname">plot_filters</tt><big>(</big><em>fig=None</em>, <em>show_now=False</em><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilterbank.plot_filters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gabor.GaborFilterbank.process">
+<tt class="descname">process</tt><big>(</big><em>spec</em>, <em>verbose=False</em><big>)</big><a class="headerlink" href="#lnpy.transform.gabor.GaborFilterbank.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform.gammatone">
+<span id="lnpy-transform-gammatone-module"></span><h2>lnpy.transform.gammatone module<a class="headerlink" href="#module-lnpy.transform.gammatone" title="Permalink to this headline">¶</a></h2>
+<p>Wrapper code around Volker Hohmann&#8217;s gammatone filterbank implementation:</p>
+<p>Volker Hohmann, Frequency analysis and synthesis using a Gammatone
+filterbank, Acta acustica/Acustica, vol. 88, no. 3, pp. 433-442, 2002.</p>
+<p>Tobias Herzke and Volker Hohmann, Improved numerical methods for gammatone
+filterbank analysis and synthesis,  Acta Acustica united with Acustica,
+vol. 93, pp. 498-500, 2007.</p>
+<div class="section" id="remark">
+<h3>Remark<a class="headerlink" href="#remark" title="Permalink to this headline">¶</a></h3>
+<p>Due to copyright restrictions, the C-code must be downloaded from</p>
+<p><a class="reference external" href="http://www.uni-oldenburg.de/mediphysik-akustik/mediphysik/downloads/">http://www.uni-oldenburg.de/mediphysik-akustik/mediphysik/downloads/</a></p>
+<p>and placed into the src/gammatone folder. Further, rename the function
+&#8220;gfb_analyze&#8221; in Gfb_analyze.h to &#8220;analyze&#8221;! Otherwise, it won&#8217;t compile.</p>
+<dl class="class">
+<dt id="lnpy.transform.gammatone.GammatoneFilter">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.gammatone.</tt><tt class="descname">GammatoneFilter</tt><big>(</big><em>f_center</em>, <em>samplerate</em>, <em>order=4</em>, <em>bw_factor=1.0</em><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gammatone filter class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>f_center</strong> (<em>float</em>) &#8211; Filter center frequency (in Hz)</li>
+<li><strong>samplerate</strong> (<em>float</em>) &#8211; Sampling frequency (in Hz)</li>
+<li><strong>order</strong> (<em>int</em>) &#8211; Filter order (default: 4)</li>
+<li><strong>bw_factor</strong> (<em>float</em>) &#8211; Bandwidth factor (default: 1.)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.get_center_frequency">
+<tt class="descname">get_center_frequency</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.get_center_frequency" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.get_coefficients">
+<tt class="descname">get_coefficients</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.get_coefficients" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.get_norm_factor">
+<tt class="descname">get_norm_factor</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.get_norm_factor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.get_order">
+<tt class="descname">get_order</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.get_order" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.get_state">
+<tt class="descname">get_state</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.get_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.process">
+<tt class="descname">process</tt><big>(</big><em>x</em>, <em>spectype='complex'</em><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilter.reset_state">
+<tt class="descname">reset_state</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilter.reset_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.gammatone.</tt><tt class="descname">GammatoneFilterbank</tt><big>(</big><em>samplerate=16000.0</em>, <em>f_cutoff=(250.0</em>, <em>6700.0)</em>, <em>f_carrier=1000.0</em>, <em>filt_per_erb=1.0</em>, <em>order=4</em>, <em>bw_factor=1.0</em>, <em>spectype='complex'</em>, <em>warm_start=False</em><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#lnpy.transform.base.BaseTransform" title="lnpy.transform.base.BaseTransform"><tt class="xref py py-class docutils literal"><span class="pre">lnpy.transform.base.BaseTransform</span></tt></a></p>
+<p>Gammatone filterbank class</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>samplerate</strong> (<em>float</em>) &#8211; Sampling frequency of input signal (in Hz; defaul: 16000)</li>
+<li><strong>f_cutoff</strong> (<em>list or tuple</em>) &#8211; Lower and upper cutoff frequencies (in Hz; default: (250, 6700))</li>
+<li><strong>f_carrier</strong> (<em>float</em>) &#8211; Carrier frequency of filters (in Hz; default: 1000)</li>
+<li><strong>filt_per_erb</strong> (<em>float</em>) &#8211; Filter density per ERB band (default: 1)</li>
+<li><strong>order</strong> (<em>int</em>) &#8211; Filter order (default: 4)</li>
+<li><strong>bw_factor</strong> (<em>float</em>) &#8211; Bandwidth of filters (default: 1)</li>
+<li><strong>spectype</strong> (<em>{&#8216;complex&#8217;, &#8216;magnitude&#8217;, &#8216;real&#8217;, &#8216;imag&#8217;}</em>) &#8211; Type of spectrum returned by the process function
+(default: &#8216;complex&#8217;)</li>
+<li><strong>warm_start</strong> (<em>boolean</em>) &#8211; Use filter states from previous run? (default: false)</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.analyze">
+<tt class="descname">analyze</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.analyze" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decompose time signal into frequency bands</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>signal</strong> (<em>numpy array or Signal object</em>) &#8211; </td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><strong>spec</strong> &#8211;
+If signal is a numpy array the filtered signal (t x f),
+the time points and the frequency vector are returned as
+tuple. If signal is a list, a list of tuples will be
+returned.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body">lnpy.base.Spectrogram</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.get_center_frequencies">
+<tt class="descname">get_center_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.get_center_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return center frequencies of filterbank</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.get_samplerate">
+<tt class="descname">get_samplerate</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.get_samplerate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return input sampling frequency in Hz</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.process">
+<tt class="descname">process</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>For backward compatibility</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.reset_states">
+<tt class="descname">reset_states</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.reset_states" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets states of all filters</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.gammatone.GammatoneFilterbank.to_string">
+<tt class="descname">to_string</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.gammatone.GammatoneFilterbank.to_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unique parameter string for filterbank object</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-lnpy.transform.modspec">
+<span id="lnpy-transform-modspec-module"></span><h2>lnpy.transform.modspec module<a class="headerlink" href="#module-lnpy.transform.modspec" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="lnpy.transform.modspec.AMS">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.modspec.</tt><tt class="descname">AMS</tt><big>(</big><em>first_transform=&lt;lnpy.transform.gammatone.GammatoneFilterbank object at 0x2b9b01de4d10&gt;</em>, <em>second_transform=&lt;lnpy.transform.spectrogram.STFT object at 0x2b9b01de4e90&gt;</em>, <em>dynamic_range=60.0</em><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#lnpy.transform.base.BaseTransform" title="lnpy.transform.base.BaseTransform"><tt class="xref py py-class docutils literal"><span class="pre">lnpy.transform.base.BaseTransform</span></tt></a></p>
+<p>Amplitude modulation spectrogram class</p>
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.analyze">
+<tt class="descname">analyze</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.analyze" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.get_center_frequencies">
+<tt class="descname">get_center_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.get_center_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.get_modulation_frequencies">
+<tt class="descname">get_modulation_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.get_modulation_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.get_samplerate">
+<tt class="descname">get_samplerate</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.get_samplerate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.process">
+<tt class="descname">process</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transforms a spectrogram into a modulation spectrogram</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.AMS.to_string">
+<tt class="descname">to_string</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.AMS.to_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns unique parameter string for filterbank object</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="lnpy.transform.modspec.ModSpec2D">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.modspec.</tt><tt class="descname">ModSpec2D</tt><big>(</big><em>first_transform=&lt;lnpy.transform.gammatone.GammatoneFilterbank object at 0x2b9b01de4ed0&gt;</em>, <em>dynamic_range=60.0</em>, <em>samplerate=2.0</em>, <em>win_len=0.03</em>, <em>nfft_t=16</em>, <em>nfft_f=16</em>, <em>f_cutoff_t=(0.0</em>, <em>100.0)</em>, <em>f_cutoff_f=(0</em>, <em>20.0)</em>, <em>mode='same'</em><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#lnpy.transform.base.BaseTransform" title="lnpy.transform.base.BaseTransform"><tt class="xref py py-class docutils literal"><span class="pre">lnpy.transform.base.BaseTransform</span></tt></a></p>
+<p>Spectro-temporal modulation spectrogram class</p>
+<dl class="method">
+<dt id="lnpy.transform.modspec.ModSpec2D.get_center_frequencies">
+<tt class="descname">get_center_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D.get_center_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.ModSpec2D.get_modulation_frequencies">
+<tt class="descname">get_modulation_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D.get_modulation_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.ModSpec2D.get_samplerate">
+<tt class="descname">get_samplerate</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D.get_samplerate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.ModSpec2D.process">
+<tt class="descname">process</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transform spectrogram into a modulation spectrogram</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.modspec.ModSpec2D.to_string">
+<tt class="descname">to_string</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.modspec.ModSpec2D.to_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns unique parameter string for filterbank object</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform.setup">
+<span id="lnpy-transform-setup-module"></span><h2>lnpy.transform.setup module<a class="headerlink" href="#module-lnpy.transform.setup" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="lnpy.transform.setup.configuration">
+<tt class="descclassname">lnpy.transform.setup.</tt><tt class="descname">configuration</tt><big>(</big><em>parent_package=''</em>, <em>top_path=None</em><big>)</big><a class="headerlink" href="#lnpy.transform.setup.configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform.spectrogram">
+<span id="lnpy-transform-spectrogram-module"></span><h2>lnpy.transform.spectrogram module<a class="headerlink" href="#module-lnpy.transform.spectrogram" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="lnpy.transform.spectrogram.STFT">
+<em class="property">class </em><tt class="descclassname">lnpy.transform.spectrogram.</tt><tt class="descname">STFT</tt><big>(</big><em>win_len=256</em>, <em>win_shift=128</em>, <em>nfft=256</em>, <em>samplerate=2.0</em>, <em>use_quantities=False</em>, <em>f_cutoff=None</em>, <em>spectype='magnitude'</em>, <em>mode='valid'</em>, <em>dct_type=None</em>, <em>normalize=False</em><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.STFT" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#lnpy.transform.base.BaseTransform" title="lnpy.transform.base.BaseTransform"><tt class="xref py py-class docutils literal"><span class="pre">lnpy.transform.base.BaseTransform</span></tt></a></p>
+<p>Short-time Fourier transform class</p>
+<dl class="method">
+<dt id="lnpy.transform.spectrogram.STFT.get_center_frequencies">
+<tt class="descname">get_center_frequencies</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.STFT.get_center_frequencies" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns center frequencies of filter bank channels</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.spectrogram.STFT.get_samplerate">
+<tt class="descname">get_samplerate</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.STFT.get_samplerate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns sample rate of filter bank output</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.spectrogram.STFT.process">
+<tt class="descname">process</tt><big>(</big><em>signal</em><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.STFT.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Short-time Fourier transform of time signal</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="lnpy.transform.spectrogram.STFT.to_string">
+<tt class="descname">to_string</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.STFT.to_string" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return string with transform parameters</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="lnpy.transform.spectrogram.hannwin">
+<tt class="descclassname">lnpy.transform.spectrogram.</tt><tt class="descname">hannwin</tt><big>(</big><em>n</em><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.hannwin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a von Hann window of given length (in samples)</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="lnpy.transform.spectrogram.tukeywin">
+<tt class="descclassname">lnpy.transform.spectrogram.</tt><tt class="descname">tukeywin</tt><big>(</big><em>n</em>, <em>alpha=0.5</em><big>)</big><a class="headerlink" href="#lnpy.transform.spectrogram.tukeywin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a Tukey window of given length (in samples)</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform.wrap_gtfb">
+<span id="lnpy-transform-wrap-gtfb-module"></span><h2>lnpy.transform.wrap_gtfb module<a class="headerlink" href="#module-lnpy.transform.wrap_gtfb" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="lnpy.transform.wrap_gtfb.process">
+<tt class="descclassname">lnpy.transform.wrap_gtfb.</tt><tt class="descname">process</tt><big>(</big><big>)</big><a class="headerlink" href="#lnpy.transform.wrap_gtfb.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple wrapper for gammatone analyzer C code</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-lnpy.transform">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-lnpy.transform" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">lnpy.transform package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.base">lnpy.transform.base module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.gabor">lnpy.transform.gabor module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.gammatone">lnpy.transform.gammatone module</a><ul>
+<li><a class="reference internal" href="#remark">Remark</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-lnpy.transform.modspec">lnpy.transform.modspec module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.setup">lnpy.transform.setup module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.spectrogram">lnpy.transform.spectrogram module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform.wrap_gtfb">lnpy.transform.wrap_gtfb module</a></li>
+<li><a class="reference internal" href="#module-lnpy.transform">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="lnpy.lnp.html"
+                        title="previous chapter">lnpy.lnp package</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="setup.html"
+                        title="next chapter">setup module</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/lnpy.transform.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="setup.html" title="setup module"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="lnpy.lnp.html" title="lnpy.lnp package"
+             >previous</a> |</li>
+        <li><a href="index.html">lnpy 0.1 alpha documentation</a> &raquo;</li>
+          <li><a href="lnpy.html" >lnpy package</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, Arne F. Meyer.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
