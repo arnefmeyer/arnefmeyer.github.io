@@ -18,5 +18,22 @@ github_username:  arnefmeyer
 # Build settings
 markdown: kramdown
 
+github:
+kramdown:
+	input: GFM
+	hard_wrap: false
 gems:
-  - jekyll-redirect-from
+   - jekyll-coffeescript
+   - jekyll-paginate
+   - jekyll-redirect-from
+
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+	noscript: false
+kramdown:
+	math_engine: mathjax
+
