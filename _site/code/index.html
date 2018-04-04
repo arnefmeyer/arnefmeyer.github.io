@@ -11,8 +11,8 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/code/">
-  <link rel="alternate" type="application/rss+xml" title="arne f. meyer" href="http://localhost:4000/feed.xml">
+  <link rel="canonical" href="http://yourdomain.com/code/">
+  <link rel="alternate" type="application/rss+xml" title="arne f. meyer" href="http://yourdomain.com/feed.xml">
 </head>
 
 
@@ -83,7 +83,7 @@
 <h2 id="lnpy">lnpy</h2>
 <p>A Python package containing many methods for estimating neuronal stimulus-response functions</p>
 
-<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/lnpy">https://github.com/arnefmeyer/lnpy</a></p>
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/lnpy" target="_blank">https://github.com/arnefmeyer/lnpy</a></p>
 
 <p> </p>
 
@@ -94,14 +94,14 @@
 <h2 id="matcall">matcall</h2>
 <p>A Python package for calling Matlab from Python (using temporary files)</p>
 
-<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/matcall">https://github.com/arnefmeyer/matcall</a></p>
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/matcall" target="_blank">https://github.com/arnefmeyer/matcall</a></p>
 
 <p> </p>
 
 <h2 id="clusterjobs">clusterjobs</h2>
 <p>A Python package that makes running of embarassingly-parallel jobs on high-performance computing clusters quite easy. Currently, the SLURM system is supported (the Sun grid engine (SGE) backend might also work but haven’t tested it for a while).</p>
 
-<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/clusterjobs">https://github.com/arnefmeyer/clusterjobs</a></p>
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/clusterjobs" target="_blank">https://github.com/arnefmeyer/clusterjobs</a></p>
 
 <p> </p>
 
@@ -115,7 +115,7 @@
 
 <p><strong>Description:</strong> A simple video4linux2-based video frame grabber plugin. It retrieves frames from any device supported by <a href="http://linuxtv.org/downloads/v4l-dvb-apis/">v4l2</a> and displays them using <a href="http://opencv.org/">opencv</a>. Moreover, frames can be saved to disk (in jpg format) together with open-ephys hardware time stamps making it easy to synchronize frames and recorded data later on. Depending on your camera this approach should be useful for most (behavioral) tracking experiments. In case the experiment requires very precise time stamps, e.g., high-speed whisker tracking, it might be a good idea to use a camera that can send TTL pulses for each frame.</p>
 
-<p><strong>Source code:</strong> <a href="http://www.github.com/arnefmeyer/FrameGrabberPlugin">http://www.github.com/arnefmeyer/FrameGrabberPlugin</a></p>
+<p><strong>Source code:</strong> <a href="http://www.github.com/arnefmeyer/FrameGrabberPlugin" target="_blank">http://www.github.com/arnefmeyer/FrameGrabberPlugin</a></p>
 
 <p> </p>
 
@@ -125,7 +125,27 @@
 
 <p><strong>Description:</strong> Implements a virtual reference matrix that is a bit more flexible than open-ephys’ channel mapper.</p>
 
-<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/VirtualReferencePlugin">https://github.com/arnefmeyer/VirtualReferencePlugin</a></p>
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/VirtualReferencePlugin" target="_blank">https://github.com/arnefmeyer/VirtualReferencePlugin</a></p>
+
+<p> </p>
+
+<h2 id="rpi-camera">RPi Camera</h2>
+
+<p><img src="../images/rpicamera_screenshot.png" alt="image not found" /></p>
+
+<p><strong>Description:</strong> A plugin for the <a href="https://github.com/open-ephys/plugin-GUI/" target="_blank">open-ephys plugin-GUI</a> to control a <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi (RPi)</a> camera over the network. The camera is controlled locally on the RPi and communication between the recording system and the RPi is done via <a href="http://zeromq.org/" target="_blank">zeromq</a>.</p>
+
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/RPiCameraPlugin" target="_blank">https://github.com/arnefmeyer/RPiCameraPlugin</a></p>
+
+<p> </p>
+
+<h2 id="inertia-measurement-unit-imu-reader">Inertia measurement unit (IMU) reader</h2>
+
+<p><img src="../images/imureader_screenshot.png" alt="image not found" /></p>
+
+<p><strong>Description:</strong> APlugin for open-ephys <a href="https://github.com/open-ephys/plugin-GUI/" target="_blank">plugin-GUI</a> to control and read data from an interia measurement unit (IMU) via an Arduino, Teensy, or another compatible microcontroller. Communication between the microncontroller and the IMU sensor is done via i2c.</p>
+
+<p><strong>Source code:</strong> <a href="https://github.com/arnefmeyer/IMUReaderPlugin" target="_blank">https://github.com/arnefmeyer/IMUReaderPlugin</a></p>
 
 
   </div>
