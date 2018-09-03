@@ -4,6 +4,7 @@ title: code
 permalink: /code/
 ---
 
+
 ---
 
 # Neuronal stimulus-response function estimation
@@ -71,8 +72,19 @@ A Python package that makes running of embarassingly-parallel jobs on high-perfo
 
 ![image not found](../images/imureader_screenshot.png)
 
-**Description:** APlugin for open-ephys [plugin-GUI](https://github.com/open-ephys/plugin-GUI/){:target="_blank"} to control and read data from an interia measurement unit (IMU) via an Arduino, Teensy, or another compatible microcontroller. Communication between the microncontroller and the IMU sensor is done via i2c.
+**Description:** A Plugin for open-ephys [plugin-GUI](https://github.com/open-ephys/plugin-GUI/){:target="_blank"} to control and read data from an interia measurement unit (IMU) via an Arduino, Teensy, or another compatible microcontroller. Communication between the microncontroller and the IMU sensor is done via i2c.
 
 **Source code:** [https://github.com/arnefmeyer/IMUReaderPlugin](https://github.com/arnefmeyer/IMUReaderPlugin){:target="_blank"}
+
+&nbsp;
+
+## Event publisher
+
+![image not found](../images/eventpublisher_screenshot.png)
+
+**Description:** An [open-ephys plugin](https://github.com/open-ephys/plugin-GUI/){:target="_blank"} for publishing events (TTL, messages) in plain text over the network.
+
+**Source code:** [https://github.com/arnefmeyer/EventPublisherPlugin](https://github.com/arnefmeyer/EventPublisherPlugin){:target="_blank"}
+
 
 
