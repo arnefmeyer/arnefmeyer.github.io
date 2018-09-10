@@ -12,14 +12,14 @@ permalink: /publications/
 
 **Meyer AF**, Williamson R, Linden JF, and Sahani M. [Models of neuronal stimulus-response functions: elaboration, estimation and evaluation](http://journal.frontiersin.org/article/10.3389/fnsys.2016.00109/full). Front. Syst. Neurosci., 2017, 10, 109. [Code](http://www.gatsby.ucl.ac.uk/resources/srf/){:target="_blank"}.
 
-**Meyer AF**, Diepenbrock JP, Ohl FW, and Anemüller J. [Fast and robust estimation of spectro-temporal receptive fields using stochastic approximations](http://www.sciencedirect.com/science/article/pii/S0165027015000618){:target="_blank"}. J Neurosci Methods, 2015, 246, 119-133. 
+**Meyer AF**, Diepenbrock JP, Ohl FW, and Anemüller J. [Fast and robust estimation of spectro-temporal receptive fields using stochastic approximations](http://www.sciencedirect.com/science/article/pii/S0165027015000618){:target="_blank"}. J Neurosci Methods, 2015, 246, 119-133.
 
 **Meyer AF**, Diepenbrock JP, Ohl FW, and Anemüller J. [Temporal variability of spectro-temporal receptive fields in the anesthetized auditory cortex](http://journal.frontiersin.org/article/10.3389/fncom.2014.00165/abstract){:target="_blank"}. Frontiers in Computational Neuroscience, 2014, Vol. 8(165)
 
 **Meyer AF**, Diepenbrock JP, Happel MF, Ohl FW, and Anemüller J.
 [Discriminative Learning of Receptive Fields from Responses to Non-Gaussian Stimulus Ensembles](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093062){:target="_blank"}. PLOS ONE, 2014, Vol. 9(4), pp. e93062.
 
-Kollmeier B., Schaedler MR, **Meyer AF**, Anemueller J, Meyer, BT. [Do we need STRFs for Cocktail Parties? - On the relevance of physiologically motivated features for human speech perception derived from automatic speech recognition (ASR)](http://www.ncbi.nlm.nih.gov/pubmed/23716239#){:target="_blank"}. Adv Exp Med Biol. 2013;787:333-41. doi: 10.1007/978-1-4614-1590-9_37.
+Kollmeier B., Schaedler MR, **Meyer AF**, Anemüller J, Meyer, BT. [Do we need STRFs for Cocktail Parties? - On the relevance of physiologically motivated features for human speech perception derived from automatic speech recognition (ASR)](http://www.ncbi.nlm.nih.gov/pubmed/23716239#){:target="_blank"}. Adv Exp Med Biol. 2013;787:333-41. doi: 10.1007/978-1-4614-1590-9_37.
 
 
 # Peer-reviewed conference proceedings
@@ -38,13 +38,13 @@ Bach\* JH, **Meyer\* AF**, McElfresh D, and Anemüller J. [Automatic classificat
 
 Dimitriadis G, **Meyer AF**, Neto JP, Nogueira J, Geerts J, Sahani M, Kampff AR. Neural representation of complex auditory stimuli from high-density, distributed, electrophysiology recordings in rats. Integrated Systems Neuroscience Workshop, Manchester, UK, 2017.
 
-**Meyer AF**, Poort J, Sahani M, Linden JF. The relation between eye and head movements and cortical activity in freely moving mice. Bernstein Conference, G\"ottingen, Germany, 2017.
+**Meyer AF**, Poort J, Sahani M, Linden JF. The relation between eye and head movements and cortical activity in freely moving mice. Bernstein Conference, Goettingen, Germany, 2017.
 
-**Meyer AF**, Linden JF, Sahani M. Local sensory context modulates responses to complex sounds in multiple brain areas along the auditory pathway. Society for Neuroscience Meeting, Chicago, USA, 2015. 
+**Meyer AF**, Linden JF, Sahani M. Local sensory context modulates responses to complex sounds in multiple brain areas along the auditory pathway. Society for Neuroscience Meeting, Chicago, USA, 2015.
 
-**Meyer AF**, Diepenbrock JP, Ohl, FW, Anem\"uller J. Fast and reliable estimation of non-Gaussian stimulus receptive fields using large-margin classification. Society of Neuroscience Meeting, San Diego, USA, 2013.
+**Meyer AF**, Diepenbrock JP, Ohl, FW, Anemüller J. Fast and reliable estimation of non-Gaussian stimulus receptive fields using large-margin classification. Society of Neuroscience Meeting, San Diego, USA, 2013.
 
-**Meyer AF**, Anem\"uller J. Robust and efficient receptive field inference from binary responses with stochastic gradient descent. Physics, Computation, and the Mind: Advances and Challenges at Interfaces, La Herradura, Spain, 2012.
+**Meyer AF**, Anemüller J. Robust and efficient receptive field inference from binary responses with stochastic gradient descent. Physics, Computation, and the Mind: Advances and Challenges at Interfaces, La Herradura, Spain, 2012.
 
 
 ##### (\* These authors contributed equally to this work)
