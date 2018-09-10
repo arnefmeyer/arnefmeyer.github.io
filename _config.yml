@@ -10,7 +10,7 @@ title: arne f. meyer
 email: arne@gatsby.ucl.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   Computational neuroscience, behavioural neuroscience, and (almost) everything in between.
-baseurl: "/about" # the subpath of your site, e.g. /blog
+#baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "http://arnefmeyer.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  arnefmeyer
