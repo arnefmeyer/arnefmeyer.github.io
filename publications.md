@@ -8,7 +8,7 @@ permalink: /publications/
 # Peer-reviewed journal articles
 
 
-**Meyer AF**\*, Poort J\*, O'Keefe J, Sahani M, Linden JF. A head-mounted camera system integrates detailed behavioral monitoring with multichannel electrophysiology in freely moving mice. Neuron (accepted). Preprint on [bioRxiv](https://www.biorxiv.org/content/early/2018/04/03/294397){:target="_blank"}, https://doi.org/10.1101/294397. [Design files and code](https://github.com/arnefmeyer/mousecam){:target="_blank"}.
+**Meyer AF**\*, Poort J\*, O'Keefe J, Sahani M, Linden JF. [A head-mounted camera system integrates detailed behavioral monitoring with multichannel electrophysiology in freely moving mice](https://www.cell.com/neuron/fulltext/S0896-6273(18)30822-5). Neuron, 2018, 100, 46-60. Preprint on [bioRxiv](https://www.biorxiv.org/content/early/2018/04/03/294397){:target="_blank"}, https://doi.org/10.1101/294397. [Design files and code](https://github.com/arnefmeyer/mousecam){:target="_blank"}.
 
 **Meyer AF**, Williamson R, Linden JF, and Sahani M. [Models of neuronal stimulus-response functions: elaboration, estimation and evaluation](http://journal.frontiersin.org/article/10.3389/fnsys.2016.00109/full). Front. Syst. Neurosci., 2017, 10, 109. [Code](http://www.gatsby.ucl.ac.uk/resources/srf/){:target="_blank"}.
 
