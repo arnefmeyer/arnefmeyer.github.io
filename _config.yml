@@ -18,5 +18,5 @@ github_username:  arnefmeyer
 # Build settings
 markdown: kramdown
 
-plugins_dir:
+plugins:
   - jekyll-redirect-from
