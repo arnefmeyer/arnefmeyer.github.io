@@ -4,9 +4,14 @@ title: publications
 permalink: /publications/
 ---
 
+# Preprints
+
+**Meyer AF**, O'Keefe J, Poort J. [Two distinct types of eye-head coupling in freely moving mice](https://biorxiv.org/cgi/content/short/2020.02.20.957712v1){:target="_blank"}. bioRxiv, 2020.
+
+Zinnamon FA, Harrison FG, Wenas SS, **Meyer AF**, Liu Q, Wang KH, Linden JF. [Hearing loss promotes schizophrenia-relevant brain and behavioral abnormalities in a mouse model of human 22q11.2 Deletion Syndrome](https://www.biorxiv.org/content/10.1101/539650v1){:target="_blank"}. bioRxiv, 2019.
+
 
 # Peer-reviewed journal articles
-
 
 **Meyer AF**\*, Poort J\*, O'Keefe J, Sahani M, Linden JF. [A head-mounted camera system integrates detailed behavioral monitoring with multichannel electrophysiology in freely moving mice](https://www.cell.com/neuron/fulltext/S0896-6273(18)30822-5){:target="_blank"}. Neuron, 2018, 100, 46-60. Preprint on [bioRxiv](https://www.biorxiv.org/content/early/2018/04/03/294397){:target="_blank"}, https://doi.org/10.1101/294397. [Design files and code](https://github.com/arnefmeyer/mousecam){:target="_blank"}.
 
