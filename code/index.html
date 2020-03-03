@@ -1,0 +1,88 @@
+---
+title: Code
+layout: default
+---
+
+<hr>
+
+<section class="wrapper style1" id="srf">
+	<div class="container">
+		<ul class="default">
+			<li><a href="#srf">Neuronal stimulus-response function estimation</a></li>
+			<li><a href="#oeplugins">Open-ephys plugins</a></li>
+			<li><a href="#misc">Miscellaneous</a></li>
+		</ul>
+</div>
+</section>
+
+
+<hr>
+
+<section class="wrapper style1" id="srf">
+	<div class="container">
+		<h3>Neuronal stimulus-response function estimation</h3>
+		{% for pkg in site.srf %}
+		<div class="row">
+			<section class="12u">
+				<div class="box post">
+					<a href="{{ pkg.link }}" class="image left"><img src="{{ site.baseurl }}{{ pkg.featured }}" alt=""></a>
+					<div class="inner">
+						{{ pkg.content }}
+						<footer>
+							<a href="{{ pkg.link }}" target="_blank" class="button">Source code/files</a>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+
+<hr>
+
+<section class="wrapper style1" id="oeplugins">
+	<div class="container">
+		<h3>Open-ephys plugins</h3>
+		{% for oeplugin in site.oeplugins %}
+		<div class="row">
+			<section class="12u">
+				<div class="box post">
+					<a href="{{ oeplugin.link }}" class="image left"><img src="{{ site.baseurl }}{{ oeplugin.featured }}" alt=""></a>
+					<div class="inner">
+						{{ oeplugin.content }}
+						<footer>
+							<a href="{{ oeplugin.link }}" target="_blank" class="button">Source code/files</a>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+
+
+<hr>
+
+<section class="wrapper style1" id="misc">
+	<div class="container">
+		<h3>Miscellaneous</h3>
+		{% for entry in site.misc %}
+		<div class="row">
+			<section class="12u">
+				<div class="box post">
+					<a href="{{ entry.link }}" class="image left"><img src="{{ site.baseurl }}{{ entry.featured }}" alt=""></a>
+					<div class="inner">
+						{{ entry.content }}
+						<footer>
+							<a href="{{ entry.link }}" target="_blank" class="button">Source code/files</a>
+						</footer>
+					</div>
+				</div>
+			</section>
+		</div>
+		{% endfor %}
+	</div>
+</section>

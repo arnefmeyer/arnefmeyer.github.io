@@ -1,0 +1,30 @@
+---
+title: News
+layout: default
+---
+
+<section class="wrapper style1">
+	<div class="container">
+		<div id="content">
+			<div class="row">
+				<div class="12u">
+
+						<section>
+							{% for post in site.categories.news %}
+								{% if post.url %}
+								<div class="row">
+									<section class="12u">
+											<div class="inner">
+												<h3>{{ post.title }}</h3>
+												{{ post.content }}
+											</div>
+									</section>
+								</div>
+								{% endif %}
+							{% endfor %}
+						</section>
+
+				</div>
+			</div>
+	</div>
+</section>
