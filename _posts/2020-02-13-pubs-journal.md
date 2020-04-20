@@ -6,6 +6,10 @@ categories: publications
 
 <p style="margin-top: -1em;"></p>
 
+**Meyer AF**\#, O'Keefe J, Poort J. Two distinct types of eye-head coupling in freely moving mice. Current Biology (accepted).
+
+<p style="margin-top: -1em;"></p>
+
 **Meyer AF**\*\#, Poort J\*, O'Keefe J, Sahani M, Linden JF. [A head-mounted camera system integrates detailed behavioral monitoring with multichannel electrophysiology in freely moving mice](https://www.cell.com/neuron/fulltext/S0896-6273(18)30822-5){:target="_blank"}. Neuron, 2018, 100, 46-60. [Design files and code](https://github.com/arnefmeyer/mousecam){:target="_blank"}.
 
 <p style="margin-top: -1em;"></p>

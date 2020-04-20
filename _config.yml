@@ -9,8 +9,8 @@ baseurl: ''
 # Build settings
 markdown: kramdown
 
-gems:
-- jekyll-email-protect
+#gems:
+#- jekyll-email-protect
 
 # collections
 collections:
