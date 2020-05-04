@@ -1,27 +1,37 @@
-name: Arne F. Meyer -- Studying the (visual) brain in action
-description: Research page
-author: Arne F. Meyer
-email: a1.meyer@donders.ru.nl
+# Dependencies
+markdown:         kramdown
+# highlighter:      pygments
 
-#baseurl: '/Arcana-Jekyll-Theme'
-baseurl: ''
+# plugins:
+#   - jekyll-gist
+#   - jekyll-paginate
 
-# Build settings
-markdown: kramdown
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
 
-#gems:
-#- jekyll-email-protect
+# Setup
+title:            Arne F. Meyer
+tagline:          'Studying the (visual) brain in action'
+description:      'Studying the (visual) brain in action'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-# collections
-collections:
-  oeplugins:
-    order:
-      - oeplugin-framegrabber.md
-      - oeplugin-rpicamera.md
-      - oeplugin-imureader.md
-      - oeplugin-virtualref.md
-      - oeplugin-eventpublisher.md
-  srf:
-    output: true
-  misc:
-    output: true
+author:
+  name:           'Arne F. Meyer'
+  url:            http://arnefmeyer.github.io
+
+paginate:         5
+
+# excerpt_separator: "<!--more-->"
+exclude:
+  - public/images/*.svg
+
+
+# Custom vars
+version:          1
+
+github:
+  repo:           http://www.github.com/arnefmeyer
+
+github: [metadata]

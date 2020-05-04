@@ -1,142 +1,48 @@
 ---
-title: Arne F. Meyer -- Studying the (visual) brain in action
 layout: default
+title: Home
 ---
 
-<section class="wrapper style1">
-	<div class="container">
-		<div class="row">
-			<section class="12u">
+<img src="{{ site.baseurl }}public/images/filmstrip_mouse.jpg" alt="filmstrip mouse" width="100%">
 
-				<div style="float: left; width: 25%; margin-left: 5%">
+<hr class="hr-thick-wide" />
 
-						<div class="inner">
-							<img src="{{ site.baseurl }}/assets/images/arne_meyer.jpg" width="100%" alt="" />
-						</div>
 
-						<br>
-						<div class="inner">
-							<p>
-							Radboud Excellence Fellow<br>
-							Donders Institute for Brain, Cognition and Behaviour<br>
-							Radboud University<br>
-							Nijmegen<br>
-							The Netherlands<br>
-							</p>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-							<p>
-							Research Fellow (hon.)<br>
-							Sainsbury Wellcome Centre for Neural Circuits and Behaviour<br>
-							25 Howland Street<br>
-							London W1T 4JG<br>
-							United Kingdom<br>
-							</p>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% if post.excerpt %}
+        {{ post.excerpt }}
+      <!--{{ post.excerpt | strip_html | truncatewords:75 }}-->
+    {% endif %}
 
-							<strong>Contact</strong>
-							<p>
-								<a href="https://www.ru.nl/personen/meyer-a-f/" target="_blank">
-									Drop me an email
-								</a>
+  </div>
+  <hr style="margin-top:-2rem;"/>
+  {% endfor %}
+</div>
 
-								<br>
+<!-- <br> -->
 
-								Visiting address:<br>
-								Heyendaalseweg 135<br>
-								6525 AJ NIJMEGEN<br>
-								Internal postal code: 66<br>
-							</p>
-
-						</div>
-				</div>
-
-				<div style="float: right; width: 70%;">
-					<div class="box about">
-						<div class="inner">
-							I am a <a href="https://www.ru.nl/excellence/" target="_blank">
-							Radboud Excellence Fellow</a> at the
-							<a href="https://www.ru.nl/donders/" target="_blank">
-								Donders Institute for Brain, Cognition, and Behaviour
-							</a> (Nijmegen, the Netherlands)
-							and	a research fellow at the
-							<a href="https://www.sainsburywellcome.org" target="_blank">
-								Sainsbury Wellcome Centre for
-								Neural Circuits and Behaviour
-							</a> (London, UK).
-						</div>
-					</div>
-					<div class="box about">
-						<div class="inner">
-							My goal is to understand how humans and other animals gather sensory
-							information while interacting with their environment.
-
-							For example, without apparent effort, our brains guide us our way
-							to work	even though thousands of cyclists (e.g., in Nijmegen) or
-							pedestrians	(e.g., in London) that need to be detected (and	avoided)
-							within the fraction of a second.
-
-							To do so, our brains combine sensory information coming from our
-							environment with a wide range	of signals, including vestibular and
-							motor signals, coming from our own movements.
-
-							My goal is to understand how these signals are combined with
-							sensory information in the brain	to allow flexible and	robust
-							behaviors.
-						</div>
-					</div>
-
-					<div class="box about">
-						<div class="inner">
-							To reveal the underlying neural computations I combine experiments
-							in mice with computational modeling (borrowing techniques from
-							machine learning).
-
-							To measure to the full range of sensory and	movement-related signals,
-							I perform experiments in animals that are free to move.
-
-							As a first step, I developed a system enabling head and eye
-							tracking with concomitant neural recordings in freely moving mice
-							(Meyer et al., Neuron 2018).
-
-							I recently used this system to reveal the precise head and eye
-							movement (gaze)	patterns in	freely moving mice (Meyer et al., bioRxiv).
-
-							To investigate the range and function of movement-related signals
-							in the early visual system, I am currently combining the
-							developed system with virtual reality in freely moving animals.
-						</div>
-					</div>
-
-					<div class="box about">
-						<div class="inner">
-							<strong>Collaborators</strong>
-							<ul class="links">
-								<li style="margin-top: -.25em"><a href="https://www.psychol.cam.ac.uk/svl">Jasper Poort (Cambridge, UK)</a></li>
-								<li style="margin-top: -.5em"><a href="https://www.sainsburywellcome.org/web/groups/okeefe-lab">John O'Keefe (SWC, UK)</a></li>
-								<li style="margin-top: -.5em"><a href="https://www.ru.nl/english/people/battaglia-f/">Francesco Battaglia (Donders, NL)</a></li>
-								<li style="margin-top: -.5em"><a href="https://www.ucl.ac.uk/ear/research/lindenlab">Jennifer Linden (UCL, UK)</a></li>
-								<li style="margin-top: -.5em"><a href="http://www.gatsby.ucl.ac.uk/~maneesh/">Maneesh Sahani (Gatsby, UK)</a></li>
-								<li style="margin-top: -.5em"><a href="https://www.isogailab.org/">Yoh Isogai (SWC, UK)</a></li>
-								<li style="margin-top: -.5em"><a href="http://www.englitz.de/Lab/Intro.html">Bernhard Englitz (Donders, NL)</a></li>
-							</ul>
-						</div>
-					</div>
-
-				<!-- <div class="box about">
-					<div class="inner">
-						<a href="https://www.researchgate.net/profile/Arne_Meyer3" target="_blank">ResearchGate</a>
-					</div>
-				</div>
-
-				<div class="box about">
-					<div class="inner">
-						<div itemscope itemtype="https://schema.org/Person">
-							<a itemprop="sameAs" content="https://orcid.org/0000-0002-0468-3369" href="https://orcid.org/0000-0002-0468-3369" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;">
-								<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-0468-3369</a>
-							</div>
-					</div>
-				</div> -->
-
-			</div>
-		</section>
-	</div>
-</section>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
