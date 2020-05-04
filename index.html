@@ -3,11 +3,6 @@ layout: default
 title: Home
 ---
 
-<img src="{{ site.baseurl }}public/images/filmstrip_mouse.jpg" alt="filmstrip mouse" width="100%">
-
-<hr class="hr-thick-wide" />
-
-
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -18,17 +13,11 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {% if post.excerpt %}
-        {{ post.excerpt }}
-      <!--{{ post.excerpt | strip_html | truncatewords:75 }}-->
-    {% endif %}
 
+    {{ post.content }}
   </div>
-  <hr style="margin-top:-2rem;"/>
   {% endfor %}
 </div>
-
-<!-- <br> -->
 
 <div class="pagination">
   {% if paginator.next_page %}

@@ -1,37 +1,26 @@
 # Dependencies
-markdown:         kramdown
-# highlighter:      pygments
-
-# plugins:
-#   - jekyll-gist
-#   - jekyll-paginate
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
+relative_permalinks: true
 
 # Setup
-title:            Arne F. Meyer
-tagline:          'Studying the (visual) brain in action'
-description:      'Studying the (visual) brain in action'
-url:              http://arnefmeyer.github.io
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Arne F. Meyer'
-  url:            http://arnefmeyer.github.io
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 paginate:         5
 
-# excerpt_separator: "<!--more-->"
-exclude:
-  - public/images/*.svg
-
-
 # Custom vars
-version:          1
+version:          2.1.0
 
 github:
-  repo:           http://www.github.com/arnefmeyer
-
-github: [metadata]
+  repo:           https://github.com/poole/hyde

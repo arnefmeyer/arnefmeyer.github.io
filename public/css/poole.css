@@ -235,7 +235,7 @@ img {
 }
 
 /* Tables */
-/* table {
+table {
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
@@ -249,42 +249,6 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
-} */
-
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing:0;
-}
-
-table.default {
-  width: 100%;
-}
-
-table.default tbody tr {
-  border-bottom: solid 1px #e0e0e0;
-}
-
-table.default td {
-  padding: 0.5em 1em 0.5em 1em;
-  /* white-space: nowrap; */
-}
-
-table.default th {
-  font-weight: 600;
-  padding: 0.5em 1em 0.5em 1em;
-  text-align: left;
-}
-
-table.default thead {
-  background-color: #555555;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-  color: #fff;
 }
 
 
@@ -378,7 +342,6 @@ table.default thead {
 .page-title,
 .post-title {
   margin-top: 0;
-  font-size: 1.5rem;
 }
 
 /* Meta data line below post title */
