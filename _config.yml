@@ -1,21 +1,15 @@
 # Dependencies
 markdown:         kramdown
-# highlighter:      pygments
-
-# plugins:
-#   - jekyll-gist
-#   - jekyll-paginate
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
 
 # Setup
 title:            Arne F. Meyer
 tagline:          'Studying the (visual) brain in action'
 description:      'Studying the (visual) brain in action'
 url:              http://arnefmeyer.github.io
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'Arne F. Meyer'
