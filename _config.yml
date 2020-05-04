@@ -32,6 +32,6 @@ exclude:
 version:          1
 
 github:
-  repo:           http://www.github.com/arnefmeyer
+  repo:           https://github.com/arnefmeyer/arnefmeyer.github.io
 
 github: [metadata]
