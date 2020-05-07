@@ -70,7 +70,7 @@ Meyer AF\*, Poort J\*, O'Keefe J, Sahani M, Linden JF
 Neuron, 2018, 100, 46-60
 ([article](https://www.cell.com/neuron/fulltext/S0896-6273(18)30822-5){:target="_blank"})
 
-<a href="https://github.com/arnefmeyer/mousecam" target="_blank" class="button">Source code/files</a>
+<a href="https://open-ephys.org/mousecam" target="_blank" class="button">Source code/files</a>
 
 
 <hr class="hr-thick-wide" />
