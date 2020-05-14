@@ -5,8 +5,8 @@ layout: post
 
 Our recent [preprint](https://biorxiv.org/cgi/content/short/2020.02.20.957712v1){:target="_blank"}
 on head and eye movements in freely moving mice has been accepted for
-publication in Current Biology. Joint work with John O'Keefe (SWC, London)
-and Jasper Poort (University of Cambridge, UK).
+publication in [Current Biology](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30556-X){:target="_blank"}.
+Joint work with John O'Keefe (SWC, London) and Jasper Poort (University of Cambridge, UK).
 
 The mouse has become one of the most prominent species in vision research,
 in part because enormous progress has been made in the last few years in

@@ -25,8 +25,8 @@ bioRxiv, 2019
 
 _Two distinct types of eye-head coupling in freely moving mice_  
 **Meyer AF**\#, O'Keefe J, Poort J  
-Current Biology (accepted)
-([bioRxiv preprint](https://biorxiv.org/cgi/content/short/2020.02.20.957712v1){:target="_blank"})
+Current Biology, 2020, 30
+([article](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30556-X){:target="_blank"},[bioRxiv preprint](https://biorxiv.org/cgi/content/short/2020.02.20.957712v1){:target="_blank"})
 
 ### 2018
 
