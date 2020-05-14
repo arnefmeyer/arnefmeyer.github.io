@@ -5,7 +5,7 @@ layout: post
 
 Our recent [preprint](https://biorxiv.org/cgi/content/short/2020.02.20.957712v1){:target="_blank"}
 on head and eye movements in freely moving mice has been accepted for
-publication in [Current Biology](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30556-X){:target="_blank"}.
+publication in Current Biology.
 Joint work with John O'Keefe (SWC, London) and Jasper Poort (University of Cambridge, UK).
 
 The mouse has become one of the most prominent species in vision research,
@@ -21,3 +21,6 @@ most eye movements in mice are coupled to the head in two distinct ways
 associated with two different functions. By performing similar experiments in
 humans, we show that one of the couplings resembles a major characteristic of
 human eye movements (known as "saccade and fixate").
+
+### Article
+Meyer AF, O'Keefe J, Poort J (2020): _Two distinct types of eye-head coupling in freely moving mice_. Current Biology, 30 ([article](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30556-X){:target="_blank"})
