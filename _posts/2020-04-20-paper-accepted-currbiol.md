@@ -22,5 +22,12 @@ associated with two different functions. By performing similar experiments in
 humans, we show that one of the couplings resembles a major characteristic of
 human eye movements (known as "saccade and fixate").
 
+
 ### Article
 Meyer AF, O'Keefe J, Poort J (2020): _Two distinct types of eye-head coupling in freely moving mice_. Current Biology, 30 ([article](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30556-X){:target="_blank"})
+
+
+### Press release
+
+[Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/research-news/mouse-eye-movement){:target="_blank"}  
+[Donders Institute](https://www.ru.nl/donders/news/news/@1270544/mouse-human-eye-movements-share-some-important/){:target="_blank"}
