@@ -30,7 +30,7 @@ conditions (see [research](/research)).
 
 ### Contact
 
-[Drop me an email](https://www.ru.nl/personen/meyer-a-f/){:target="_blank"}  
+[Drop me an email](https://www.ru.nl/personen/meyer-a-f/){:target="_blank"}
 
 <div style="display: table; width:100%;">
     <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
@@ -54,14 +54,14 @@ conditions (see [research](/research)).
 
 <!-- <br>
 
-Visiting address:  
-Huygens building  
-Heyendaalseweg 135  
-6525 AJ NIJMEGEN  
-Internal postal code: 66  
-[(how to get there)](https://www.ru.nl/science/about-the-faculty/contact/how-get/s){:target="_blank"}  
+Visiting address:
+Huygens building
+Heyendaalseweg 135
+6525 AJ NIJMEGEN
+Internal postal code: 66
+[(how to get there)](https://www.ru.nl/science/about-the-faculty/contact/how-get/s){:target="_blank"}
 
-Sainsbury Wellcome Centre  
-25 Howland Street  
-W1T 4JG London  
+Sainsbury Wellcome Centre
+25 Howland Street
+W1T 4JG London
 [(how to get there)](https://www.sainsburywellcome.org/web/content/contact-us){:target="_blank"}   -->
