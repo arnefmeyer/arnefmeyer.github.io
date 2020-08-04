@@ -9,8 +9,8 @@ order: 3
 ### 2020
 
 _Mouse visual cortex contains a region of enhanced spatial resolution_  
-van Beest EH*, Mukherjee S*, Kirchberger L*, Schnabel UH, van der Togt C,
-Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR*, Self MW*  
+van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
+Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR\*, Self MW\*  
 submitted.
 
 _Two distinct types of eye-head coupling in freely moving mice_  
