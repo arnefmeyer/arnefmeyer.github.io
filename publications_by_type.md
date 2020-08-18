@@ -14,7 +14,8 @@ order: -1
 _Mouse visual cortex contains a region of enhanced spatial resolution_  
 van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
 Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR\*, Self MW\*  
-submitted.
+SSRN, 2020
+([SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3676469){:target="_blank"})
 
 
 ### 2019
