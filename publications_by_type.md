@@ -106,7 +106,7 @@ In: 2012 IEEE International Conference on Acoustics, Speech and Signal Processin
 ([article](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6287890){:target="_blank"})
 
 
-\* These authors contributed equally to this work
+\* These authors contributed equally to this work  
 \# Corresponding author
 
 <br>
