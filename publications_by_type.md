@@ -10,14 +10,6 @@ order: -1
 
 ## Preprints
 
-### 2020
-_Mouse visual cortex contains a region of enhanced spatial resolution_  
-van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
-Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR\*, Self MW\*  
-SSRN, 2020
-([SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3676469){:target="_blank"})
-
-
 ### 2019
 
 _Hearing loss promotes schizophrenia-relevant brain and behavioral abnormalities in a mouse model of human 22q11.2 Deletion Syndrome_  
@@ -28,6 +20,19 @@ bioRxiv, 2019
 <br>
 
 ## Peer-reviewed journal articles
+
+### 
+
+_Mouse visual cortex contains a region of enhanced spatial resolution_  
+van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
+Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR\*, Self MW\*  
+Nature Communications (accepted)
+([SSRN preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3676469){:target="_blank"})
+
+_Vision: Depth perception in climbing mice_  
+Poort J, **Meyer AF**  
+Current Biology (in press)
+
 
 ### 2020
 
