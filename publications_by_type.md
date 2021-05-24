@@ -21,7 +21,7 @@ bioRxiv, 2019
 
 ## Peer-reviewed journal articles
 
-### 
+### 2021
 
 _Mouse visual cortex contains a region of enhanced spatial resolution_  
 van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
@@ -31,7 +31,8 @@ Nature Communications (accepted)
 
 _Vision: Depth perception in climbing mice_  
 Poort J, **Meyer AF**  
-Current Biology (in press)
+Current Biology, 2021, 31, 10, 486-488
+([article](https://authors.elsevier.com/a/1d7P93QW8Rwnvh){:target="_blank"})
 
 
 ### 2020

@@ -17,7 +17,8 @@ Nature Communications (accepted)
 
 _Vision: Depth perception in climbing mice_  
 Poort J, **Meyer AF**  
-Current Biology (in press)
+Current Biology, 2021, 31, 10, 486-488
+([article](https://authors.elsevier.com/a/1d7P93QW8Rwnvh){:target="_blank"})
 
 
 ### 2020
