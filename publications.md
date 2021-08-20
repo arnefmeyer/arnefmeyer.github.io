@@ -9,6 +9,11 @@ order: 3
 
 ### 2021
 
+_The Hybrid Drive: a chronic implant device combining tetrode arrays with silicon probes for layer-resolved ensemble electrophysiology in freely moving mice_  
+Guardamagna M, Eichler R, Pedrosa R, Aarts A, **Meyer AF**\*, Battaglia FP\*  
+bioRxiv, 2021.
+([preprint](https://www.biorxiv.org/content/10.1101/2021.08.20.457090v1){:target="_blank"})
+
 _Mouse visual cortex contains a region of enhanced spatial resolution_  
 van Beest EH\*, Mukherjee S\*, Kirchberger L\*, Schnabel UH, van der Togt C,
 Teeuwen RRM, Barsegyan A, **Meyer AF**, Poort J, Roelfsema PR\*, Self MW\*  
