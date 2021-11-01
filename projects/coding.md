@@ -12,9 +12,9 @@ Sensory perception involves not only extraction of information about the physica
 world from the responses of various sensory receptors (e.g., photoreceptors in the
 retina and mechanoreceptors in the cochlea), but also the transformation of this
 information into neural representations that are useful for cognition and behavior.
-I develop and use computational methods to understand the nature of stimulus-response
-transformations at various stages of sensory processing, and the ways in which
-the resulting neural representations relate to perception.
+I am leveraging techniques from statistics and machine learning to understand the 
+nature of stimulus-response transformations at various stages of sensory processing, 
+and the ways in which the resulting neural representations relate to perception.
 A specific focus is on the coding of complex auditory and visual inputs and the
 effects of behavior and arousal or attention on stimulus-response relationships.
 

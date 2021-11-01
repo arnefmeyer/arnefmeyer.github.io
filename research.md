@@ -6,7 +6,8 @@ order: 2
 
 ---
 
-### Gaze dynamics in freely moving mice
+### Active vision
+<!-- Gaze dynamics in freely moving mice -->
 
 <!-- <div class="row">
   <div class="column" style="width:45%;float:left;">
@@ -29,25 +30,8 @@ order: 2
     </a>
     </div>
     <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
-    How do mice use head and eye movements (gaze) to visually sample their environment?
+    How do animals visually sample their environments? And how do motor-related signals support processing of visual information?
     <a href="/projects/gaze_dynamics/index.html">Read more</a>
-    </div>
-</div>
-
-
----
-### The neural computations underlying vision during self-motion
-
-
-<div style="display: table; width:100%;">
-    <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
-    <a href="/projects/vision_selfmotion/index.html"><img src="/public/images/mousecam.png" alt="" width="90%" />
-    </a>
-    </div>
-    <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
-    How does the visual system integrate visual and self-motion information to
-    generate egocentric-based visual representations for action and navigation?
-    <a href="/projects/vision_selfmotion/index.html">Read more</a>
     </div>
 </div>
 
@@ -70,6 +54,26 @@ order: 2
 
 
 ---
+### Linking sensory systems to neural representations of space
+
+
+<div style="display: table; width:100%;">
+    <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
+    <a href="/projects/vision_selfmotion/index.html"><img src="/public/images/mousecam.png" alt="" width="90%" />
+    </a>
+    </div>
+    <div style="display: table-cell; vertical-align: top; height: 50px; width: 50%;">
+    How does the brain transform sensory information, such as landmarks, into a sense of where we are?
+    <a href="/projects/sensory_space/index.html">Read more</a>
+    </div>
+</div>
+
+
+
+
+
+<!--
+---
 ### Sensory inputs during social behaviors
 
 
@@ -83,3 +87,5 @@ order: 2
     <a href="/projects/social_interaction/index.html">More</a>.
     </div>
 </div>
+-->
+

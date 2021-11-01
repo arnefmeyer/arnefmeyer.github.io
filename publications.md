@@ -4,7 +4,7 @@ title: Publications
 order: 3
 ---
 
-(see [here](/publications_by_type/index.html) for publications by type)
+<!--(see [here](/publications_by_type/index.html) for publications by type)-->
 
 
 ### 2021

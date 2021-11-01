@@ -20,13 +20,12 @@ arises from the information coming from the senses and how it is modified when
 an animal is interacting with its environment to enable flexible yet robust
 behavior.
 
-To reach this goal, I am using a cross-disciplinary approach that combines
-computational work with experiments in mice.
-Current models of sensory processing and perception have been developed
+To reach this goal, **I am using a cross-disciplinary approach that combines
+methods from statistics and machine learning with experiments in mice**.
+Current models of sensory processing, perception and cognition have been developed
 to understand behavior under a limited set of idealized laboratory conditions
-(e.g., in head-fixed animals).
-My work aims at studying sensory processing under more naturalistic
-conditions (see [research](/research)).
+(e.g., repeated trials in head-fixed animals).
+My work aims at studying the brain under more naturalistic conditions (see [research](/research)).
 
 ### Contact
 
