@@ -1,27 +1,15 @@
 ---
 layout: page
-title: Research
+title: Neuroscience
 order: 2
 ---
+
+Some previous neuroscience-related research projects. Not actively maintained.
+
 
 ---
 
 ### Active vision
-<!-- Gaze dynamics in freely moving mice -->
-
-<!-- <div class="row">
-  <div class="column" style="width:45%;float:left;">
-    <a href="/research/eyehead.html"><img src="/public/mouse_doubleeyecam_edit.png" alt="" />
-    </a>
-  </div>
-  <div class="column" style="width:50%;float:left;">
-    Understand gaze shift dynamics in mice
-  </div>
-</div> -->
-
-<!-- ## Head and eye movements in freely moving mice
-
-![mouse eyecams](/public/mouse_doubleeyecam_edit.png) -->
 
 
 <div style="display: table; width:100%;">

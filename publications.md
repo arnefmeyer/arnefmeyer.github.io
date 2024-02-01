@@ -4,7 +4,22 @@ title: Publications
 order: 3
 ---
 
-<!--(see [here](/publications_by_type/index.html) for publications by type)-->
+[Google scholar profile](https://scholar.google.com/citations?hl=de&user=C5Xgwr4AAAAJ){:target="_blank"}
+
+
+### 2023
+
+_Contextual modulation is a stable feature of the neural code in auditory cortex of awake mice_
+Akritas M, Armstrong AG, Lebert JM, **Meyer AF**, Sahani M, Linden JF.  
+bioRxiv, 2023. [preprint](https://www.biorxiv.org/content/10.1101/2023.04.22.537782v1.abstract){:target="_blank"}
+
+
+### 2022
+
+_The Hybrid Drive: a chronic implant device combining tetrode arrays with silicon probes for layer-resolved ensemble electrophysiology in freely moving mice_  
+Guardamagna M, Eichler R, Pedrosa R, Aarts A, **Meyer AF**\*, Battaglia FP\*  
+Journal of Neural Engineering, 2022, Vol. 19, Number 3.
+([preprint](https://iopscience.iop.org/article/10.1088/1741-2552/ac6771){:target="_blank"})
 
 
 ### 2021
