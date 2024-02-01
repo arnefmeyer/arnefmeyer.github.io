@@ -31,6 +31,7 @@ research. Everything is free to use, modify, and distribute (see also [this open
 
 ![coding model](/public/images/example_multifilt_ln_model_simplified.png)
 
+
 **lnpy** -- a Python package containing many methods for estimating neuronal stimulus-response functions. For descriptions of the underlying models and estimators see:  
 
 _Models of neuronal stimulus-response functions: elaboration, estimation and evaluation_  
@@ -53,6 +54,18 @@ PLOS ONE, 2014, Vol. 9(4), pp. e93062
 ([article](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0093062){:target="_blank"})
 
 <a href="https://github.com/arnefmeyer/lnpy" target="_blank" class="button">Source code/files</a>
+
+
+<hr class="hr-thick-wide" />
+
+
+### <a name="mousecam"></a>neuro-glm
+
+![behavioral/spatial tuning curves](/public/images/neuro_glm.png)
+
+**neuro-glm** -- a Python package for estimating behavioral tuning curves and spatial receptive fields using Poisson GLMs.
+
+<a href="https://github.com/arnefmeyer/neuro-glm" target="_blank" class="button">Source code/files</a>  
 
 
 <hr class="hr-thick-wide" />

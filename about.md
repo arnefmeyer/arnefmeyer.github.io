@@ -4,7 +4,7 @@ title: About
 order: 1
 ---
 
-I am currently a Staff Scientist at [Stepstone](https://www.thestepstonegroup.com/en/){:target="_blank"} leading the development of language model-based approaches to match candidates with jobs. A particular focus is on developing models that are interpretable, fair, and scale to millions of candidates and jobs. I am also a [chapter coach](https://medium.com/stepstone-tech/yet-another-chapter-story-bcd51f40dbac) helping younger scientist to grow and to shape the rapidly growing Data Science community at Stepstone.
+I am currently a Staff Scientist at [Stepstone](https://www.thestepstonegroup.com/en/){:target="_blank"} leading the development of language model-based approaches to match candidates with jobs. A particular focus is on developing models that are interpretable, fair, and scale to millions of candidates and jobs. I am also a [chapter coach](https://medium.com/stepstone-tech/yet-another-chapter-story-bcd51f40dbac) helping younger scientist to grow and to shape the rapidly growing data science and machine learning community at Stepstone.
 
 Before, I have investigated mouse brain and behavior, as a [Radboud Excellence Fellow](https://www.ru.nl/excellence/){:target="_blank"}
 at the [Donders Institute for Brain, Cognition, and Behaviour](https://www.ru.nl/donders/)

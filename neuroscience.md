@@ -58,9 +58,6 @@ Some previous neuroscience-related research projects. Not actively maintained.
 
 
 
-
-
-<!--
 ---
 ### Sensory inputs during social behaviors
 
@@ -75,5 +72,3 @@ Some previous neuroscience-related research projects. Not actively maintained.
     <a href="/projects/social_interaction/index.html">More</a>.
     </div>
 </div>
--->
-
