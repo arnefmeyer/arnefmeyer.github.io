@@ -9,6 +9,7 @@ research. Everything is free to use, modify, and distribute (see also [this open
 
 
 - [Neuronal stimulus-response function estimation](#srf)
+- [GLM for estimating behavioral and spatial neural correlates](#neuroglm)
 - [The Mousecam](#mousecam)
 - [Open-ephys plugins](#oeplugins)
 - [Miscellaneous](#misc)
@@ -59,11 +60,11 @@ PLOS ONE, 2014, Vol. 9(4), pp. e93062
 <hr class="hr-thick-wide" />
 
 
-### <a name="mousecam"></a>neuro-glm
+### <a name="neuroglm"></a>neuro-glm
 
 ![behavioral/spatial tuning curves](/public/images/neuro_glm.png)
 
-**neuro-glm** -- a Python package for estimating behavioral tuning curves and spatial receptive fields using Poisson GLMs.
+**neuro-glm** -- a Python package for jointly estimating behavioral and spatial tuning curves of single neurons using Poisson GLMs.
 
 <a href="https://github.com/arnefmeyer/neuro-glm" target="_blank" class="button">Source code/files</a>  
 
